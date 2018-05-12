@@ -1,0 +1,23 @@
+ {
+	"namaDb": "demoDb",
+	"tabel": {
+		"user": [
+			"iduser int(11)",
+			"nama varchar(40)",
+			"email varchar(155)",
+			"password varchar(50)",
+			"status int(1)",
+			"terdaftar int(11)"
+		]
+	},
+	"atribut": {
+		"primary key": [
+			"user.iduser",
+			"presentasi.idpresentasi",
+			"slide.idslide"
+		],
+		"unique key": [
+			"user.email"
+		]
+	}
+}

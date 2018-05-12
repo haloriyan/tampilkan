@@ -1,0 +1,73 @@
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 65px;
+	border-bottom: 1px solid #ccc;
+	color: #555;
+}
+.judul {
+	margin: 0;
+	float: left;
+	margin-left: 5%;
+	font-size: 24px;
+	font-family: OBold;
+}
+#tblOpt {
+	float: right;
+	margin-right: 5%;
+	font-size: 26px;
+	cursor: pointer;
+	width: 65px;
+	border-radius: 66px;
+	text-align: center;
+}
+#tblOpt:hover { color: #e74c3c; }
+.container {
+	position: absolute;
+	top: 65px;left: 0px;right: 0px;
+	color: #454545;
+}
+.list {
+	display: inline-block;
+	width: 31.85%;
+	box-shadow: 2px 2px 12px 1px #dedede;
+	margin-right: 15px;
+	margin-bottom: 26px;
+}
+.list h3 {
+	font-size: 25px;
+	color: #454545;
+	height: 80px;
+}
+.list #tools {
+	text-align: center;
+}
+#tools button {
+	display: inline-block;
+	margin: 10px 15px;
+	font-size: 23px;
+	color: #aaa;
+	cursor: pointer;
+	border: none;
+	background: none;
+	transition: 0.45s;
+}
+#tools button:hover { color: #e74c3c; }
+#tools button:focus { outline: none; }
+#new {
+	position: fixed;
+	bottom: 50px;right: 5%;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 60px;
+	cursor: pointer;
+	transition: 0.44s;
+}
+#new:hover { background-color: #c0392b; }
+.popup .opt {
+	text-align: center;
+	margin-top: 20px;
+}
+#refresh { display: none; }
+a { color: #e74c3c; }
